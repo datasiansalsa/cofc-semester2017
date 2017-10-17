@@ -50,7 +50,7 @@ def main():
     #1 point for the peak of the roof
     intro.setText("Click one point above the rectangle for the peak of the roof.")
     p5 = win.getMouse()
-    point6 = Point((p2.getX()), p1.getY()) #understood point not gotten by mouse click
+    point6 = Point((p2.getX()), p1.getY())
     roof = Polygon(p1,p5,point6)
     roof.setFill("brown")
     roof.draw(win)
